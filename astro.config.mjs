@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://saseri.com',
+  site: 'https://saseri.fr',
   output: 'static',
   trailingSlash: 'always',
   integrations: [starlight({
@@ -34,7 +34,7 @@ export default defineConfig({
       { tag: 'meta', attrs: { property: 'og:locale', content: 'fr_FR' } },
       { tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'Organization',
-        name: 'SASERI', url: 'https://saseri.com', email: 'contact@saseri.com',
+        name: 'SASERI', url: 'https://saseri.fr', email: 'contact@saseri.fr',
       }) },
     ],
   })],
